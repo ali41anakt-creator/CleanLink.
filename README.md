@@ -8,7 +8,7 @@
 
 Нужны Node.js 18+ и PostgreSQL 14+.
 
-```bash
+
 # 1. База данных
 createuser cleanlink --pwprompt          # пароль, например cleanlink_pass
 createdb cleanlink -O cleanlink
