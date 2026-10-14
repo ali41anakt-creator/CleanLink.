@@ -115,3 +115,18 @@ docker compose up --build
 Что стоит добавить перед настоящим запуском: HTTPS (обычно даёт хостинг), подтверждение email,
 сброс пароля, подключение платёжного провайдера и внешних уведомлений, пагинацию каталога, бэкапы БД. CSP отключён из-за Tailwind CDN и inline-обработчиков —
 при желании переведите Tailwind на сборку и включите CSP.
+## Project Development
+
+CleanLink is a web application developed
+as a team project.
+
+### Project Goals
+- Create a user-friendly website
+- Improve the user interface
+- Connect frontend and backend
+- Deploy the application online
+
+### Project Documentation
+This section describes the project's
+main goals and development process.
+
