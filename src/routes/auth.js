@@ -49,6 +49,7 @@ router.post('/register', wrap(async (req, res) => {
   }
 }));
 
+// Авторизация пользователя по email и паролю
 router.post('/login', wrap(async (req, res) => {
   const email = str(req.body.email, { min: 1, max: 160, field: 'Email' }).toLowerCase();
   const password = typeof req.body.password === 'string' ? req.body.password : '';
